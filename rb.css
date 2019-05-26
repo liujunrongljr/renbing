@@ -1,0 +1,210 @@
+/* 
+ * 只需要给自己设定的页面写样式即可 
+ *   已经设定好的PAGE?样式
+ *     每一个页面都是一屏幕
+ *     都设置了position:relative，这样每一页的子元素都相当于当前页面定位
+ *     溢出的内容都隐藏了
+ *     ......
+ */
+/* ==PAGE1== */
+.page1 {
+    background: url('image/1234.webp') no-repeat;
+    background-size: cover;
+}
+
+.page1 img {
+    position: absolute;
+}
+
+.page1 img:nth-of-type(1) {
+    /* 所有测量出来的尺寸都要除以100变为REM */
+    width: 3.72rem;
+    height: 3.72rem;
+    left: 0rem;
+    top:0rem;
+}
+
+.page1 img:nth-of-type(2) {
+    width: 3.72rem;
+    height: 3.72rem;
+    right: 0rem;
+    top: 0rem;
+}
+
+.page1 img:nth-of-type(3) {
+    width: 7.0rem;
+    height: 7.0rem;
+    right: 0.4rem;
+    top: 2.5rem;
+}
+
+.page1 img:nth-of-type(4) {
+    width: 3.5rem;
+    height: 3.5rem;
+    left: 0rem;
+    bottom: 0rem;
+}
+
+.page1 img:nth-of-type(5) {
+    width: 3.5rem;
+    height: 3.5rem;
+    right: 0rem;
+    bottom: 0rem;
+}   
+.page1 img:nth-of-type(6) {
+    width: 4.0rem;
+    height: 3.0rem;
+    right: 1.9rem;
+    bottom: 6.0rem;
+}
+
+/* ==PAGE2== */
+.page2 {
+    background: url('image/1234.webp') no-repeat;
+    background-size: cover;
+}
+
+.page2 img {
+    position: absolute;
+}
+
+.page2 img:nth-of-type(1) {
+    width: 4rem;
+    height: 4rem;
+    left: 1.5rem;
+    top: 4.7rem;
+}/*第二页动图*/
+
+.page2 img:nth-of-type(2) {
+    width: 3.5rem;
+    height: 3.5rem;
+    right: 0rem;
+    top: 0rem;
+}
+
+.page2 img:nth-of-type(3) {
+    width: 3.5rem;
+    height:3.5rem;
+    left: 0rem;
+    top: 0rem;
+}
+
+.page2 img:nth-of-type(4) {
+    width: 3.5rem;
+    height: 3.5rem;
+    right: 0rem;
+    bottom:0rem;
+}
+.page2 img:nth-of-type(5) {
+    width: 3.5rem;
+    height: 3.5rem;
+    left: 0rem;
+    bottom:0rem;
+}
+.page3 {
+    background: url('image/1234.webp') no-repeat;
+    background-size: cover;
+}
+
+.page3 img {
+    position: absolute;
+}
+
+.page3 img:nth-of-type(1) {
+    width: 4rem;
+    height: 4rem;
+    left: 1.5rem;
+    top: 4.7rem;
+}
+
+.page3 img:nth-of-type(2) {
+    width: 7.0rem;
+    height: 7.0rem;
+    right: 0.4rem;
+    top: 2.9rem;
+}
+
+.page3 img:nth-of-type(3) {
+    width: 8.5rem;
+    height:3.5rem;
+    left: 0rem;
+    top: 0rem;
+}
+
+.page3 img:nth-of-type(4) {
+    width:8.5rem;
+    height:6rem;
+    right: 0rem;
+    bottom:0rem;
+}
+.page4 {
+    background: url('image/1234.webp') no-repeat;
+    background-size: cover;
+}
+
+.page4 img {
+    position: absolute;
+}
+
+.page4 img:nth-of-type(1) {
+    width: 4rem;
+    height: 4rem;
+    left: 1.5rem;
+    top: 4.7rem;
+}/*第二页动图*/
+
+.page4 img:nth-of-type(2) {
+    width: 3.5rem;
+    height: 3.5rem;
+    right: 0rem;
+    top: 0rem;
+}
+
+.page4 img:nth-of-type(3) {
+    width: 3.5rem;
+    height:3.5rem;
+    left: 0rem;
+    top: 0rem;
+}
+
+.page4 img:nth-of-type(4) {
+    width: 3.5rem;
+    height: 3.5rem;
+    right: 0rem;
+    bottom:0rem;
+}
+.page4 img:nth-of-type(5) {
+    width: 3.5rem;
+    height: 3.5rem;
+    left: 0rem;
+    bottom:0rem;
+}
+.page5 {
+    background: url('image/1234.webp') no-repeat;
+    background-size: cover;
+}
+
+.page5 img {
+    position: absolute;
+}
+
+.page5 img:nth-of-type(1) {
+    width: 6rem;
+    height: 9rem;
+    left: 0.9rem;
+    top: 2.2rem;
+}/*第二页动图*/
+
+.page5 img:nth-of-type(2) {
+    width: 8.5rem;
+    height: 3.5rem;
+    right: 0rem;
+    top: 0rem;
+}
+
+.page5 img:nth-of-type(3) {
+    width: 8.5rem;
+    height: 6rem;
+    right: 0rem;
+    bottom: 0rem;
+}
